@@ -1,0 +1,28 @@
+{
+  "name": "webhooks-for-boxworks",
+  "version": "1.0.0",
+  "description": "This will be a quick node JS example for doing webhooks on Box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Webhooks",
+    "Boxworks"
+  ],
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/cghil/simple-box-webhook-listener.git"
+  },
+  "author": "Corey Ghilarducci",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "box-node-sdk": "^1.7.0",
+    "colors": "^1.1.2",
+    "express": "^4.15.4"
+  }
+}
